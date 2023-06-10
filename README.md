@@ -41,7 +41,7 @@ npm run test
 
 ### Testing the API
 
-Make a POST request to `http://localhost:3000/api/create` to test the API. The request should include the following properties in the request body:
+Make a POST request to `http://localhost:3000/api/convert` to test the API. The request should include the following properties in the request body:
 
 - `httpsTOhttp`: Specifies the HTTPS to HTTP conversion.
 - `changeCorsDataType`: Changes the data type of the CORS value (e.g., "yes" becomes true, "no" becomes false).
